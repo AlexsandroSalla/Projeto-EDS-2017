@@ -1,0 +1,91 @@
+body {
+   margin: 0;
+   background-color: #e6e6e6;
+}
+
+#header {
+text-align:center;
+background-color:#0000FF;
+margin-top:-20px;
+height:120px;
+}
+
+
+.bannercima{
+position:fixed;
+width:100%;
+}
+
+li{
+width:40px;
+height:40px;
+margin-top:-85px;
+margin-left:1590px;
+position:absolute;
+box-shadow: 3px 3px 3px #333333;	
+border-color:#000000;
+border-radius: 3px;
+text-decoration: none;
+padding: .3em 1.8em .3em 1.8em;
+border: 2px solid #fff;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+}
+
+#designLogin:hover{
+background-color:#CC66FF;
+text-decoration:none;
+color:#008B8B;
+
+}
+
+
+
+a:link 
+{ 
+ text-decoration:none; 
+ color:#000000;
+} 
+
+
+
+#corpo {
+width:96%;
+height:800PX;
+background-color:#ff99ff;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+.footer{
+	text-align:center;
+	clear:both;
+	position:absolute;
+	width:100%;
+	height:50px;
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	background-color:#00FF66;
+}
+h2 {
+margin-top:-60px;
+color:#FF00FF;
+text-shadow: 0.2em 0.1em #000000;
+}
+
+p {
+font-size:15px;
+
+}
+
+#form1{
+
+}
+
+#user {
+
+}
+
+#pass{
+
+}
