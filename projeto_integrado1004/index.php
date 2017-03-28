@@ -1,0 +1,52 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+
+<head>
+<title>Construction</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+
+</head>
+
+<body>
+
+
+<div id="header">
+<div class="bannercima">
+<img src="img/feature-bg.jpg" width="100%" height="120"/>
+<h2>AJR <br />COSMÉTICOS</h2>
+<div id="designLogin">
+<ul>
+<li><a href="indexLogin.php" class="nounderline">Entrar</a> </li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="corpo">
+<img src="img/feature.jpg" width="100%" height="800"/>
+<div id="margin1">
+
+<h1>TESTEEEEEEEEEEEEEEEEEEEEEE</h1>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="footer">
+			<p>Copyright &copy; 2017 - by AjrCosméticos<br>
+			<a href="https://www.facebook.com/AJR-Cosm%C3%A9ticos-144001786038697" target="_blank">Facebook</a></p>
+		 </div>
+		
+
+
+</body>
+</html>
