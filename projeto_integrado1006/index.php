@@ -21,7 +21,10 @@ require 'db.php';
 <head>
 <title>..:Bem vindo a AjrCosméticos:..</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+
+<link rel="stylesheet" href="css/style2.css"/>
+<link rel="stylesheet" href="css/vendors/owl-carousel/owl.carousel.css"/>
+<link rel="stylesheet" href="css/vendors/owl-carousel/owl.theme.default.css"/>
 
 </head>
 
@@ -31,19 +34,11 @@ require 'db.php';
 
 <body>
 			<h2>AJR <br />COSMÉTICOS</h2>
-			<div class="bannercima">
 			
-			<header> 
-			<img src="img/feature.png" alt="Responsive image" width="100%" height="650px" style="text-align:center;"/>
-			</div>
-			<div id="texto"></div>
-			</header>
-			</div>
 		
 					<nav>
 				<div class="topnav">
 
-		<h1>Menu Principal</h1>
 		
 		
 		
@@ -60,13 +55,26 @@ require 'db.php';
          <?php  } else { ?>
 		 	<li><a href="indexLogin.php" class="nounderline">Login</a></li>
 		 <?php } ?>
-          
-         
+          "
 		</ul>
 		</div>
 		</nav>
+<br />
+<div class="bannercima">
+			
+	<header> 
+		<div class="slider-area">
+			<div class="slider-active owl-carousel">
+				<img src="img/feature.png" alt="" />
+				<img src="img/feature1.png" alt="" />
+			</div>
+		</div>	
+			</header>
+			</div>
 
 
+		<br/>
+		<br/>
 
 		<section>
 			<div class="corpo">
@@ -82,7 +90,11 @@ require 'db.php';
 			<a href="https://www.facebook.com/AJR-Cosm%C3%A9ticos-144001786038697" target="_blank">Facebook</a></p>
 		 </div>
 		
-
+	<script src="js/vendors/jquery/jquery.min.js"></script>
+	<script src="js/vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	
 
 </body>
 </html>
