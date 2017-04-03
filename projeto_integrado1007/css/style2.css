@@ -1,0 +1,175 @@
+body {
+	margin:0;
+   background-color:white;
+   max-width:100%;
+   max-height:100%;
+}
+
+.corpo {
+width:96%;
+height:460px;
+background-color:#ff99ff;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+.slider-active .owl-nav div{
+background: #cb30ff none repeat scroll 0 0;
+font-size:20px;
+height:25px;
+line-height:40px;
+position:absolute;
+text-align:center;
+top:50%;
+left:20px;
+transform:translateY(-50%);
+width:40px;
+}
+
+.slider-active .owl-nav div.owl-next{
+left:auto;
+right:20px;
+}
+.slider-active .owl-dots{
+text-align:center;
+}
+.slider-active .owl-dot {
+background: black none repeat scroll 0 0;
+border-radius:50%;
+display:inline-block;
+height:18px;
+margin:0 2px;
+width:18px;
+}
+
+.slider-active .owl-dot.active{
+background: purple none repeat scroll 0 0;
+
+}
+
+
+	.topnav {
+	margin-top:-20px;
+	width:100%;
+	height:100px;
+	max-width:100%;
+	max-height:10%;
+	top:0;
+	position:relative;
+	text-align:center;
+	background-color:#cb30ff;
+	box-shadow: 3px 3px 3px #333333;
+	text-decoration:none; 
+	}
+		
+	.topnav ul {
+	color:#008B8B;
+	text-decoration:none; 
+	}
+	
+	.slider-area {
+	margin-top:-20px;
+	}	
+		
+.topnav li{
+	
+	top:24px;
+	display: inline-block;
+	 font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5em;
+    padding: .3em 1.8em .3em 1.8em;
+    border: 2px solid #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+	font-family: 'Quicksand', sans-serif;
+	max-width:100%;
+	margin:inherit;
+	width: auto;
+	max-height:100%;
+	text-align:center;
+	box-shadow: 3px 3px 3px #cb30ff;	
+	border-color:#cb30ff;
+	}
+	
+	.topnav	a{
+	max-width:100%;
+	max-height:100%;
+	font-size:22px;
+	margin-top:5px;
+	text-decoration:none; 
+	color:white;
+	  }
+	
+	.topnav	h1{ 
+	color:white;
+	font-size:28px;
+	  }
+ 
+	
+	.topnav li:hover {
+ 	 background-color:#FFCCFF;
+	text-decoration:none;
+	color:#cb30ff;
+ 	}
+
+
+
+	a:link 
+	{ 
+ 	text-decoration:none; 
+	} 
+
+
+
+
+
+
+
+
+
+#margin1 {
+width:100px;
+height:100px;
+background-color:#0000FF;
+
+border:medium;
+margin-left:-200px;
+
+}
+
+
+.footer{
+	text-align:center;
+	clear:both;
+	width:100%;
+	height:50px;
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	background-color:#00FF66;
+}
+h2 {
+margin-top:-60px;
+color:#FF00FF;
+text-shadow: 0.2em 0.1em #000000;
+}
+
+p {
+font-size:15px;
+
+}
+
+#form1{
+
+}
+
+#user {
+
+}
+
+#pass{
+
+}
