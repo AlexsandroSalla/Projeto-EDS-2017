@@ -38,6 +38,7 @@ require 'db.php';
 
 
 <body>
+
 			<h2>AJR <br />COSMÉTICOS</h2>
 			
 		
@@ -56,13 +57,16 @@ require 'db.php';
           { ?>
             <li><a href="logout.php" class="nounderline">Logout</a></li>
 			<br />
-			<h1>Bem vindo <h1><?php echo " $nome";?></h1></h1>
+						<div style="margin-top:-85px;margin-left:88%;position:absolute;">
+		<h1 style="color:#000000">Bem vindo <br /><?="$nome"?></h1>
+		</div>
          <?php  } else { ?>
 		 	<li><a href="indexLogin.php" class="nounderline">Login</a></li>
 		 <?php } ?>
          
 		</ul>
 		</div>
+		
 		</nav>
 <br />
 <div class="bannercima">

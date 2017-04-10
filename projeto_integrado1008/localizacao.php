@@ -60,7 +60,9 @@ require 'db.php';
           { ?>
             <li><a href="logout.php" class="nounderline">Logout</a></li>
 			<br />
-			<h1 style="color:#FF99FF; position:relative; margin-left:1600px; margin-top:-50px;">Bem vindo <h1 style="color:#FFFFFF; position:relative; margin-left:1600px; margin-top:-30px;"><?php echo "$nome";?></h1></h1>
+					<div style="margin-top:-85px;margin-left:88%;position:absolute;">
+		<h1 style="color:#000000">Bem vindo <br /><?="$nome"?></h1>
+		</div>
          <?php  } else { ?>
 		 	<li><a href="indexLogin.php" class="nounderline">Login</a></li>
 		 <?php } ?>

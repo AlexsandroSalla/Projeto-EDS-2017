@@ -15,8 +15,14 @@ margin-right: 2%;
 
 }
 
+#topnome{
+margin-bottom:90px;
+margin-left:200px;
+position:absolute;
+}
+
 .slider-active .owl-nav div{
-background: #cb30ff none repeat scroll 0 0;
+background: #eee none repeat scroll 0 0;
 font-size:20px;
 height:25px;
 line-height:40px;
@@ -62,7 +68,6 @@ background: purple none repeat scroll 0 0;
 	background-color:#cb30ff;
 	box-shadow: 3px 3px 3px #333333;
 	text-decoration:none; 
-	
 	}
 		
 	.topnav ul {
