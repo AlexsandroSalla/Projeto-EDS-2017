@@ -6,23 +6,17 @@ body {
 }
 
 .corpo {
-width:96%;
-height:410px;
+width:99%;
+height:100%;
 min-height: 100%;
-background-color:#ff99ff;
-margin-left: 2%;
-margin-right: 2%;
-
-}
-
-#topnome{
-margin-bottom:90px;
-margin-left:200px;
-position:absolute;
+background-color:#FF99DA;
+margin-left: 0.5%;
+margin-right: 1%;
+margin-top: -4%;
 }
 
 .slider-active .owl-nav div{
-background: #eee none repeat scroll 0 0;
+background: #cb30ff none repeat scroll 0 0;
 font-size:20px;
 height:25px;
 line-height:40px;
@@ -48,6 +42,7 @@ display:inline-block;
 height:18px;
 margin:0 2px;
 width:18px;
+margin-top: 0.1%;
 }
 
 .slider-active .owl-dot.active{
@@ -65,9 +60,10 @@ background: purple none repeat scroll 0 0;
 	top:0;
 	position:relative;
 	text-align:center;
-	background-color:#cb30ff;
+	background-color:#FFCCFE;
 	box-shadow: 3px 3px 3px #333333;
 	text-decoration:none; 
+	
 	}
 		
 	.topnav ul {
@@ -110,7 +106,7 @@ background: purple none repeat scroll 0 0;
 	font-size:22px;
 	margin-top:5px;
 	text-decoration:none; 
-	color:white;
+	color:black;
 	  }
 	  
 	  .topnav	a:hover{
@@ -165,6 +161,7 @@ margin-left:-200px;
 	font-size:15px;
 	background-color:#00FF66;
 	min-height: 100%
+	
 }
 h2 {
 margin-top:-60px;
@@ -187,4 +184,18 @@ font-size:15px;
 
 #pass{
 
+}
+
+
+
+
+.Welcome{
+	margin-top: -5%;
+	margin-left: 85%;
+}
+
+
+.Logado{
+	margin-top: -2.5%;
+	margin-left: 85%;
 }
